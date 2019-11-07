@@ -8,7 +8,7 @@ class FloydTriangleExample
        Scanner input = new Scanner(System.in);
        System.out.println("Enter the number of rows for floyd's triangle:");
        //Copying user input into an integer variable named rows
-       rows = input.nextInt();
+       rows = 15;
        System.out.println("Floyd's triangle");
        System.out.println("****************");
        for ( counter = 1 ; counter <= rows ; counter++ )
